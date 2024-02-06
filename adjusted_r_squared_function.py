@@ -1,6 +1,6 @@
 """ This function calculates the adjusted R squared value for a pre-defined regression model, given the array of real values for the target variable
 (real_y), the array of predicted target values generated using the above-mentioned model (pred_y), the number of observations (n) and the number
-of predictors/features used to train the regression model"""
+of predictors/features used to train the regression model (p)"""
 
 def adj_r_sq(real_y, pred_y, n, p):
     # calculate the means of the Y variable
